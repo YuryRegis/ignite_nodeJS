@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "ts-node": "ts-node-dev --transpile-only --ignore-watch node_modules --respawn ./src/server.ts",
+    "ts-node": "ts-node-dev --inspect --transpile-only --ignore-watch node_modules --respawn ./src/server.ts",
     "dev": "nodemon ./dist/server.js"
   },
   "name": "typescript",
