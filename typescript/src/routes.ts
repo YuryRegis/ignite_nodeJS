@@ -1,5 +1,11 @@
+import {Request, Response} from 'express'
+import CreateCourseService from './createCourseService'
 
 
-function CreateCourse(request: Request, response: Response) {
-    
+export function CreateCourse(request: Request, response: Response) {
+    CreateCourseService.execute({
+        name: 'TypeScript',
+        duration: 9,
+        educator: 'Jhonatan'
+    })
 }
