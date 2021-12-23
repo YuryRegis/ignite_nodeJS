@@ -1,5 +1,6 @@
 {
   "scripts": {
+    "ts-node": "ts-node-dev --transpile-only --ignore-watch node_modules --respawn ./src/server.ts",
     "dev": "nodemon ./dist/server.js"
   },
   "name": "typescript",
@@ -12,6 +13,7 @@
   },
   "devDependencies": {
     "nodemon": "^2.0.13",
+    "ts-node-dev": "^1.1.8",
     "typescript": "^4.4.3"
   }
 }
